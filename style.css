@@ -1,0 +1,44 @@
+
+
+.pink
+{
+    color:magenta;
+    font-family:Courier New; 
+    font-size:15px;
+}
+
+ul
+{
+    background-color:#B0E0E6;
+    font-family:Courier New;
+    list-style-type: circle;
+    color:magenta;
+}
+
+body
+{
+    background-color:#FFC0CB;
+}
+
+a
+{
+    color:magenta;
+}
+
+#grad1 {
+    height: 200px;
+    
+    
+    background: linear-gradient(to right, magenta, pink); 
+}
+
+.fade {
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   }
+
+   .fade:hover {
+      opacity: 0.5;
+      }
